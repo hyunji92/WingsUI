@@ -67,7 +67,9 @@ class DetailAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     }
     override fun getItemCount(): Int  = 7 //TODO : data의 유무에 따른 viewtype 개수
 
-    override fun onBindViewHolder(holder: RecyclerView.ViewHolder?, position: Int) {}
+    override fun onBindViewHolder(holder: RecyclerView.ViewHolder?, position: Int) {
+        // TODO : if(holder is RecommendViewHolder) { view setting }
+    }
 
     inner class RecommendViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         //TODO : 각 ViewType에 따른 viewHolder 정의해서 사용하도록 한다.
