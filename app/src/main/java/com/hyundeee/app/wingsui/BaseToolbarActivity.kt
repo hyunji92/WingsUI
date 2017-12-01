@@ -8,8 +8,6 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.view.WindowManager
 import kotlinx.android.synthetic.main.activity_main_coordinator.*
-import android.support.design.widget.CollapsingToolbarLayout
-
 
 
 /**

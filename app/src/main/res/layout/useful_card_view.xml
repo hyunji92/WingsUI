@@ -25,6 +25,7 @@
             android:textSize="13sp" />
 
         <LinearLayout
+            android:id="@+id/test_evaluation_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

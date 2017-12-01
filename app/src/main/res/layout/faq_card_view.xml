@@ -39,6 +39,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/how_to_reservation_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
@@ -46,28 +47,69 @@
                 android:textColor="@color/colorTitle"
                 android:textSize="14sp" />
 
-            <TextView
-                android:id="@+id/beginner_reservation_text"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="4dp"
-                android:text="@string/beginner_reservation" />
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/start_day_special_price_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="4dp"
-                android:autoLink="all"
-                android:text="@string/start_day_special_price" />
+                <TextView
+                    android:id="@+id/beginner_reservation_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="@string/beginner_reservation" />
 
-            <TextView
-                android:id="@+id/city_special_price_text"
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/ic_link_go" />
+            </LinearLayout>
+
+
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="4dp"
-                android:autoLink="all"
-                android:text="@string/city_special_price" />
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/start_day_special_price_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:autoLink="all"
+                    android:text="@string/start_day_special_price" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/ic_link_go" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/city_special_price_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:autoLink="all"
+                    android:text="@string/city_special_price" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/ic_link_go" />
+            </LinearLayout>
+
 
         </LinearLayout>
     </LinearLayout>

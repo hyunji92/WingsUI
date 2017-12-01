@@ -176,6 +176,8 @@
             <include layout="@layout/useful_card_view" />
 
             <LinearLayout
+                android:id="@+id/empty"
+                android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp" />
 
