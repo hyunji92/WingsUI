@@ -34,18 +34,6 @@ open class BaseToolbarActivity : AppCompatActivity() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             setSupportActionBar(toolbar)
         }
-
-
-        /*if (Build.VERSION.SDK_INT == Build.VERSION_CODES.LOLLIPOP) {
-            var marginResult = 0
-            val resourceId = resources.getIdentifier(getString(R.string.identifier_status_bar_height), getString(R.string.identifier_dimen), getString(R.string.identifier_android))
-            if (resourceId > 0) {
-                marginResult = resources.getDimensionPixelSize(resourceId) * 2
-            }
-            val params = collapsing_toolbar.layoutParams as CollapsingToolbarLayout.LayoutParams
-            params.topMargin -= marginResult
-            collapsing_toolbar.layoutParams = params
-        }*/
     }
 
     private fun initStatusBarColor() {
