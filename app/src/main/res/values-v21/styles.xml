@@ -16,7 +16,7 @@
   -->
 
 <resources>
-    <style name="TextAppearance.Shrine.Logo" parent="TextAppearance.AppCompat.Display3">
+    <style name="TextAppearance.Wings.Logo" parent="TextAppearance.AppCompat.Display3">
         <item name="android:letterSpacing">0.20</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textSize">22sp</item>
